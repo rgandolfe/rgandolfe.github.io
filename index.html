@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CheckTrip — organização de viagens, travelers and trip planning, organización de viajes.">
+  <title>CheckTrip | Organize suas viagens</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #172d29; background: #f5f8f6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.6; }
+    header, main, footer { width: min(100% - 2.5rem, 60rem); margin: auto; }
+    header { padding: 2rem 0 1.5rem; display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+    .brand { font-weight: 750; font-size: 1.25rem; letter-spacing: -.02em; }
+    nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+    a { color: #13634e; text-underline-offset: .18em; }
+    a:focus-visible { outline: 3px solid #ba7813; outline-offset: 4px; }
+    main { padding-bottom: 3rem; }
+    .hero { background: #173f35; color: #fff; border-radius: 1.5rem; padding: clamp(2rem, 7vw, 4rem); }
+    .hero h1 { font-size: clamp(2.5rem, 8vw, 4.5rem); line-height: 1.05; margin: 0 0 1rem; letter-spacing: -.04em; }
+    .hero p { font-size: 1.15rem; max-width: 38rem; margin: 0; color: #e0eee8; }
+    .languages { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1rem; margin-top: 1rem; }
+    section { background: white; border: 1px solid #dce7e1; border-radius: 1rem; padding: 1.5rem; }
+    section h2 { margin: 0 0 .75rem; font-size: 1.2rem; }
+    footer { border-top: 1px solid #dce7e1; padding: 1.4rem 0 2rem; color: #526a61; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">CheckTrip</div>
+    <nav aria-label="Idiomas / Languages / Idiomas">
+      <a href="#portugues" lang="pt-BR">Português</a>
+      <a href="#english" lang="en-US">English</a>
+      <a href="#espanol" lang="es">Español</a>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <h1>CheckTrip</h1>
+      <p>Planeje. Organize. Viaje.<br><span lang="en-US">Plan. Organize. Travel.</span><br><span lang="es">Planifica. Organiza. Viaja.</span></p>
+    </div>
+    <div class="languages">
+      <section id="portugues" lang="pt-BR">
+        <h2>Suas viagens em um só lugar</h2>
+        <p>Organize viagens, viajantes, reservas, despesas, checklists e documentos com o CheckTrip para Android.</p>
+        <p><a href="https://rgandolfe.github.io/checktrip-privacy/pt-br.html">Política de privacidade</a></p>
+      </section>
+      <section id="english" lang="en-US">
+        <h2>Your trips in one place</h2>
+        <p>Organize trips, travelers, reservations, expenses, checklists and documents with CheckTrip for Android.</p>
+        <p><a href="https://rgandolfe.github.io/checktrip-privacy/">Privacy policy</a></p>
+      </section>
+      <section id="espanol" lang="es">
+        <h2>Tus viajes en un solo lugar</h2>
+        <p>Organiza viajes, viajeros, reservas, gastos, listas de verificación y documentos con CheckTrip para Android.</p>
+        <p><a href="https://rgandolfe.github.io/checktrip-privacy/es.html">Política de privacidad</a></p>
+      </section>
+    </div>
+  </main>
+  <footer>CheckTrip · Android · <a href="mailto:shinyscalpapps@gmail.com">shinyscalpapps@gmail.com</a></footer>
+</body>
+</html>
